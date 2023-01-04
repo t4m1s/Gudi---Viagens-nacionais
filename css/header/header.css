@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 2.5rem;
+    align-items: center;
+    padding: 10px;
+}
+
+header a {
+    font-family: "Argentum, sans-serif";
+    text-decoration: none;
+    list-style: none;
+    color: #005BD5;
+}
+
+header ul {
+    display: flex;
+    width: 27.25rem;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 4rem;
+}
+
+.menuUl a:hover {
+    font-weight: bold;
+}
+
+.divNav {
+    display: flex;
+    align-items: center;
+}
+
+.navLi {
+    margin-right: 3.25rem;
+}
+
+header button {
+    background-color: #005BD5;
+    border-radius: .9375rem;
+    border: none;
+    color: white;
+    font-family: "Argentum, sans-serif";
+    height: 2rem;
+    width: 8rem;
+    margin-right: 30px;
+}
+    

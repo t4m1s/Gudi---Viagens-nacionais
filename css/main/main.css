@@ -1,0 +1,276 @@
+/*----------MAIN----------*/
+
+.divMain h1 {
+    width: 24rem;
+    font-family: "Argentum, sans-serif";
+    color: #005BD5;
+    font-weight: bold;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 14.5rem;
+    left: 4.5rem;
+}
+
+.imgMain {
+    width: 100%;
+}
+
+input {
+    width: 259px;
+    height: 35px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: white;
+    font-weight: light;
+    font-family: "Argentum, sans-serif";
+    position: absolute;
+    top: 21rem;
+    left: 4.5rem;
+    padding-left: 25px;
+}
+
+.btnMainOne {
+    background-color: #005BD5;
+    border-radius: .9375rem;
+    border: none;
+    color: white;
+    font-family: "Argentum, sans-serif";
+    height: 2rem;
+    width: 8rem;
+    position: absolute;
+    top: 24.5rem;
+    left: 4.5rem;
+}
+
+/*----------SECTION 1----------*/
+
+.container {
+    display: flex;
+    background-color: #005BD5;
+}
+
+.imgMainTwo {
+    width: 50%;
+    height: 50%;
+}
+
+.divMainTwo {
+    width: 50%;
+    font-family: "Argentum, sans-serif";
+    color: white;
+    
+}
+
+.divMainTwo h2 {
+    font-size: .625rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.pOne {
+    font-size: 2.1875rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 auto;
+}
+
+.pTwo {
+    font-size: .875rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 auto;
+}
+
+
+.btnMainTwo {
+    font-family: "Argentum, sans-serif";
+    height: 2rem;
+    width: 8rem;
+    border-radius: .9375rem;
+    border-color:white;
+    color: white;
+    background-color: #005BD5;
+}
+
+/*----------SECTION 2----------*/
+
+.containerTwo {
+    display: flex;
+    background-color: #005BD5;
+}
+
+.imgMainThree {
+    width: 50%;
+    height: 50%;
+}
+
+.divMainThree {
+    width: 50%;
+    font-family: "Argentum, sans-serif";
+    color: white;
+    
+}
+
+.divMainThree h2 {
+    font-size: .625rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.pThree {
+    font-size: 2.1875rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 auto;
+}
+
+.pFour {
+    font-size: .875rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 auto;
+}
+
+.btnMainThree {
+    font-family: "Argentum, sans-serif";
+    height: 2rem;
+    width: 8rem;
+    border-radius: .9375rem;
+    border-color:white;
+    color: white;
+    background-color: #005BD5;
+}
+
+/*----------SECTION 3----------*/
+
+.containerThree {
+    display: flex;
+    background-color: #005BD5;
+}
+
+.imgMainFour {
+    width: 50%;
+    height: 50%;
+}
+
+.divMainFour {
+    width: 50%;
+    font-family: "Argentum, sans-serif";
+    color: white;
+    
+}
+
+.divMainFour h2 {
+    font-size: .625rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.pFive {
+    font-size: 2.1875rem;
+    font-weight: 900;
+    text-align: center;
+    padding: 0 auto;
+}
+
+.pSix {
+    font-size: .875rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0 auto;
+}
+
+.btnMainFour {
+    font-family: "Argentum, sans-serif";
+    height: 2rem;
+    width: 8rem;
+    border-radius: .9375rem;
+    border-color:white;
+    color: white;
+    background-color: #005BD5;
+}
+
+/*----------SECTION 4----------*/
+
+.imgMainFive {
+    width: 25%;
+}
+
+.btnMainFive {
+    font-family: "Argentum, sans-serif";
+    height: 2rem;
+    width: 8rem;
+    border-radius: .9375rem;
+}
+
+/*----------SECTION 5----------*/
+
+.containerFive {
+    max-width: 1090px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerFive div {
+    margin-left: 250px;
+    padding: 2px;
+}
+
+.divMainFive{
+    margin-top: 50px;
+}
+
+.divMainFive p {
+    font-family: "Argentum, sans-serif";
+    font-weight: 500;
+    color: #8B8B8B;
+    font-size: .9375rem;
+    text-align: center;
+}
+
+.divMainFive h3 {
+    font-family: "Argentum, sans-serif";
+    font-weight: 700;
+    font-size: 2.0625rem;
+    color: #8B8B8B;
+    text-align: center;
+}
+
+/*----------SECTION 6----------*/
+
+.containerSix {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.backgroundOne {
+    background-color: #EEEEEE;
+    width: 7.75rem;
+    height: 10rem;
+}
+
+.backgroundTwo {
+    background-color: #005BD5;
+    width: 7.75rem;
+    height: 10rem;
+}
+
+.imgBackgroundOne {
+    position: absolute;
+    top: 170rem;
+    left: 24.375rem;
+}
+
+/*----------CONTAINER 7----------*/
+
+.containerSeven {
+    display: flex;
+    background-color: #005BD5;
+    width: 100%;
+}
