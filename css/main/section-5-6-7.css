@@ -169,7 +169,7 @@
 
 .inputTexto {
     width: 26.41509433962264vw;
-    height: 35px;
+    height: 5.6vh;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     border: none;
@@ -182,8 +182,8 @@
 }
 
 .inputMsg {
-    width: 350px;
-    height: 5.582137161084529vh;
+    width: 26.41509433962264vw;
+    height: 15vh;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     border: none;
@@ -203,6 +203,185 @@
     color: white;
     cursor:pointer;
     position: absolute;
-    top: 310px;
+    top: 365px;
     left: 600px;
 }
+
+@media (min-width: 1920px) {
+    
+    /*----------SECTION 5----------*/
+    .containerSix img {
+        width: 19vw;
+    }
+
+    /*----------SECTION 6----------*/
+    .containerSeven{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .backgroundOne {
+        background-color: #EEEEEE;
+        width: 11.81vw;
+        height: 23.31vh;
+        position: absolute;
+        top: 4300px;
+        left: 370px;
+        
+    }
+    .imgBackgroundOne {
+        width: 4.528301886792453vw;
+        height: 9.569377990430622vh;
+        margin-top: 30px;
+        margin-left: 68px;
+    }
+    .backgroundOne p {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #005BD5;
+        margin-left: 45px;
+        margin-top: 32px;
+    }
+
+    .backgroundTwo {
+        background-color: #005BD5;
+        width: 11.81vw;
+        height: 23.31vh;
+        position: absolute;
+        top: 4300px;
+        left: 675px;
+    }
+    .imgBackgroundTwo {
+        width: 4.528301886792453vw;
+        height: 9.569377990430622vh;
+        margin-top: 32px;
+        margin-left: 68px;
+    }
+
+    .backgroundTwo p {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: white;
+        margin-left: 15px;
+        margin-top: 32px;
+    }
+
+    .backgroundThree {
+        background-color: #EEEEEE;
+        width: 11.81vw;
+        height: 23.31vh;
+        position: absolute;
+        top: 4300px;
+        left: 995px;
+    }
+    .imgBackgroundThree {
+        width: 4.528301886792453vw;
+        height: 9.569377990430622vh;
+        margin-top: 36px;
+        margin-left: 65px;
+    }
+    .backgroundThree p {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #005BD5;
+        margin-left: 50px;
+        margin-top: 32px;
+    }
+
+
+    .backgroundFour {
+        background-color: #005BD5;
+        width: 11.81vw;
+        height: 23.31vh;
+        position: absolute;
+        top: 4300px;
+        left: 1290px;
+    }
+    .imgBackgroundFour {
+        width: 4.528301886792453vw;
+        height: 9.569377990430622vh;
+        margin-top: 35px;
+        margin-left: 65px;
+    }
+    .backgroundFour p {
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: white;
+        margin-left: 65px;
+        margin-top: 32px;
+    }
+
+    /*----------SECTION 7----------*/
+    .containerEight {
+        display: flex;
+        background-color: #005BD5;
+        width: 100%;
+        height: 79.74481658692186vh;
+        position: relative;
+        margin-top: 100px;
+    }
+    
+    .containerEight h3 {
+        font-size: 5.1875rem;
+        color: white;
+        position: absolute;
+        top: 100px;
+        left: 670px;
+    
+    }
+    
+    .inputEmail {
+        width: 29.41vw;
+        height: 5.6vh;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        border: none;
+        background-color: white;
+        font-weight: light;
+        position: absolute;
+        top: 250px;
+        left: 653px;
+        padding: 20px;
+    }
+    
+    .inputTexto {
+        width: 29.41vw;
+        height: 5.6vh;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        border: none;
+        background-color: white;
+        font-weight: light;
+        position: absolute;
+        top: 325px;
+        left: 653px;
+        padding: 20px;
+    }
+    
+    .inputMsg {
+        width: 29.41vw;
+        height: 15vh;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+        border: none;
+        background-color: white;
+        font-weight: light;
+        position: absolute;
+        top: 400px;
+        left: 653px;
+        padding: 20px;
+    }
+    
+    .containerEight button {
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 5px 20px;
+        background-color: transparent;
+        color: white;
+        cursor:pointer;
+        position: absolute;
+        top: 600px;
+        left: 875px;
+    }
+}   

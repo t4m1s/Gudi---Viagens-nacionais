@@ -1,7 +1,7 @@
 /*----------MAIN----------*/
 
 .divMain h1 {
-    width: 28.9811320754717vw;
+    width: 29.98vw;
     color: #005BD5;
     font-weight: bold;
     font-size: 2.5rem;
@@ -135,6 +135,106 @@
 .imgMainThree {
     width: 100%;
     height:  61.08452950558214vh;
+}
+
+@media (min-width: 1920px) {
+    
+    /*----------MAIN----------*/
+    .divMain h1 {
+        width: 30.98vw;
+        color: #005BD5;
+        font-weight: bold;
+        font-size: 3.5rem;
+        position: absolute;
+        top: 14.5rem;
+        left: 4.5rem;
+    }
+    
+    .btnMainOne {
+        background-color: #005BD5;
+        border-radius: .9375rem;
+        border: none;
+        color: white;
+        height: 2rem;
+        width: 8rem;
+        position: absolute;
+        top: 28rem;
+        left: 4.5rem;
+        cursor:pointer;
+    }
+
+    /*----------SECTION 1----------*/
+    .divMainTwo {
+        height: 31.89792663476874vh;
+        padding: 230px 150px;
+        color: white;
+    }
+    
+    .h2 {
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin: 10px 0px;
+    }
+    
+    
+    .pOne {
+        font-size: 0.75rem;
+        margin: 10px 0px;
+    }
+    
+    .pTwo {
+        font-size: 0.75rem;
+        font-weight: 200;
+        margin: 10px 0px;
+    }
+    
+    
+    .btnMainTwo {
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 5px 20px;
+        background-color: transparent;
+        color: white;
+        cursor:pointer;
+    }
+
+    /*----------SECTION 2----------*/
+    .divMainThree {
+        height: 31.89792663476874vh;
+        padding: 230px 150px;
+        color: white;
+    }
+    
+    .h2One {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 10px 0px;
+        color: #005BD5;
+    }
+    
+    
+    .pThree {
+        font-size: 1.01rem;
+        color: #005BD5;
+        margin: 10px 0px;
+    }
+    
+    .pFour {
+        font-size: 0.9rem;
+        color: #005BD5;
+        margin: 10px 0px;
+    }
+    
+    
+    .btnMainThree {
+        border: 1px solid #005BD5;
+        border-radius: 50px;
+        padding: 5px 20px;
+        background-color: transparent;
+        color: #005BD5;
+        cursor:pointer;
+    }
+
 }
 
 

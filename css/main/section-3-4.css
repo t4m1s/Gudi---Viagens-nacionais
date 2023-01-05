@@ -57,10 +57,10 @@
 
 .btnRJ {
     position: absolute;
-    left: 100px;
-    top: 100px;
-    height: 5.103668261562999vh;
-    width: 10.867924528301886vw;
+    left: 115px;
+    top: 210px;
+    height: 5.10vh;
+    width: 13.28vw;
     border-radius: .9375rem;
     border: none;
     cursor:pointer;
@@ -69,13 +69,11 @@
 
 .btnRioDasOstras {
     position: absolute;
-    left: 400px;
-    top: 100px;
-    height: 5.103668261562999vh;
-    width: 13.283018867924529vw;
+    left: 580px;
+    top: 210px;
+    height: 5.10vh;
+    width: 13.28vw;
     border-radius: .9375rem;
-    background-color: blur;
-    background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
@@ -83,27 +81,23 @@
 
 .btnCaldas {
     position: absolute;
-    left: 750px;
-    top: 100px;
-    height: 2rem;
-    width: 9rem;
+    left: 1060px;
+    top: 210px;
+    height: 5.10vh;
+    width: 13.28vw;
     border-radius: .9375rem;
-    background-color: blur;
-    background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
 }
 
 .btnAmazonia {
-    height: 5.103668261562999vh;
-    width: 10.867924528301886vw;
+    height: 5.10vh;
+    width: 13.28vw;
     border-radius: .9375rem;
     position: absolute;
-    left: 1070px;
-    top: 100px;
-    background-color: blur;
-    background-repeat:no-repeat;
+    left: 1545px;
+    top: 210px;
     border: none;
     cursor:pointer;
     overflow: hidden;
