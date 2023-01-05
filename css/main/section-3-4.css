@@ -57,10 +57,10 @@
 
 .btnRJ {
     position: absolute;
-    left: 115px;
-    top: 210px;
-    height: 5.10vh;
-    width: 13.28vw;
+    left: 100px;
+    top: 100px;
+    height: 5.103668261562999vh;
+    width: 10.867924528301886vw;
     border-radius: .9375rem;
     border: none;
     cursor:pointer;
@@ -69,11 +69,13 @@
 
 .btnRioDasOstras {
     position: absolute;
-    left: 580px;
-    top: 210px;
-    height: 5.10vh;
-    width: 13.28vw;
+    left: 400px;
+    top: 100px;
+    height: 5.103668261562999vh;
+    width: 13.283018867924529vw;
     border-radius: .9375rem;
+    background-color: blur;
+    background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
@@ -81,24 +83,81 @@
 
 .btnCaldas {
     position: absolute;
-    left: 1060px;
-    top: 210px;
-    height: 5.10vh;
-    width: 13.28vw;
+    left: 750px;
+    top: 100px;
+    height: 2rem;
+    width: 9rem;
     border-radius: .9375rem;
+    background-color: blur;
+    background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
 }
 
 .btnAmazonia {
-    height: 5.10vh;
-    width: 13.28vw;
+    height: 5.103668261562999vh;
+    width: 10.867924528301886vw;
     border-radius: .9375rem;
     position: absolute;
-    left: 1545px;
-    top: 210px;
+    left: 1070px;
+    top: 100px;
+    background-color: blur;
+    background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
+}
+
+
+@media (min-width: 1920px) {
+    
+    /*----------SECTION 4----------*/
+    .btnRJ {
+        position: absolute;
+        left: 115px;
+        top: 210px;
+        height: 5.10vh;
+        width: 13.28vw;
+        border-radius: .9375rem;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+    }
+
+    .btnRioDasOstras {
+        position: absolute;
+        left: 580px;
+        top: 210px;
+        height: 5.10vh;
+        width: 13.28vw;
+        border-radius: .9375rem;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+    }
+
+    .btnCaldas {
+        position: absolute;
+        left: 1060px;
+        top: 210px;
+        height: 5.10vh;
+        width: 13.28vw;
+        border-radius: .9375rem;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+    }
+
+    .btnAmazonia {
+        height: 5.10vh;
+        width: 13.28vw;
+        border-radius: .9375rem;
+        position: absolute;
+        left: 1545px;
+        top: 210px;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+    }
 }
