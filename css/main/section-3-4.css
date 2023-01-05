@@ -1,0 +1,110 @@
+/*----------SECTION 3----------*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #005BD5;
+}
+
+.imgMainTwo {
+    width: 100%;
+    height:  61.08452950558214vh;
+}
+
+.divMainTwo {
+    height: 31.89792663476874vh;
+    padding: 90px 150px;
+    color: white;
+}
+
+.h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: -5px 0;
+}
+
+
+.pOne {
+    font-size: 0.75rem;
+}
+
+.pTwo {
+    font-size: 0.75rem;
+    font-weight: 200;
+}
+
+
+.btnMainTwo {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: white;
+    cursor:pointer;
+}
+
+/*----------SECTION 4----------*/
+
+.imgMainFive {
+    width: 25%;
+    height: 41.14832535885167vh;
+}
+
+.divMainFour {
+    text-align: center;
+    position: relative;
+}
+
+.btnRJ {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    height: 5.103668261562999vh;
+    width: 10.867924528301886vw;
+    border-radius: .9375rem;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.btnRioDasOstras {
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    height: 5.103668261562999vh;
+    width: 13.283018867924529vw;
+    border-radius: .9375rem;
+    background-color: blur;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.btnCaldas {
+    position: absolute;
+    left: 750px;
+    top: 100px;
+    height: 2rem;
+    width: 9rem;
+    border-radius: .9375rem;
+    background-color: blur;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.btnAmazonia {
+    height: 5.103668261562999vh;
+    width: 10.867924528301886vw;
+    border-radius: .9375rem;
+    position: absolute;
+    left: 1070px;
+    top: 100px;
+    background-color: blur;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}

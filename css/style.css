@@ -1,9 +1,14 @@
-
+@import url(css/reset.css);
 @import url(header/header.css);
-@import url(main/main.css);
+@import url(main/main-section-1-2.css);
+@import url(main/section-3-4.css);
+@import url(main/section-5-6-7.css);
 @import url(footer/footer.css);
 
-@font-face {
+body {
     font-family: "Argentum, sans-serif";
-    src: url(/argentum-sans/ArgentumSans-Regular.ttf);
+}
+
+footer li {
+    list-style: none;
 }

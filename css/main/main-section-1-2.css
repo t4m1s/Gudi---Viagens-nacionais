@@ -1,0 +1,140 @@
+/*----------MAIN----------*/
+
+.divMain h1 {
+    width: 28.9811320754717vw;
+    color: #005BD5;
+    font-weight: bold;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 14.5rem;
+    left: 4.5rem;
+}
+
+.imgMain {
+    width: 100%;
+}
+
+.input {
+    width: 19.547169811320753vw;
+    height: 5.582137161084529vh;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: white;
+    font-weight: light;
+    position: absolute;
+    top: 23rem;
+    left: 4.5rem;
+    padding-left: 25px;
+}
+
+.btnMainOne {
+    background-color: #005BD5;
+    border-radius: .9375rem;
+    border: none;
+    color: white;
+    height: 2rem;
+    width: 8rem;
+    position: absolute;
+    top: 26.5rem;
+    left: 4.5rem;
+    cursor:pointer;
+}
+
+/*----------SECTION 1----------*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #005BD5;
+}
+
+.imgMainTwo {
+    width: 100%;
+    height:  61.08452950558214vh;
+}
+
+.divMainTwo {
+    height: 31.89792663476874vh;
+    padding: 90px 150px;
+    color: white;
+}
+
+.h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 10px 0px;
+}
+
+
+.pOne {
+    font-size: 0.75rem;
+    margin: 10px 0px;
+}
+
+.pTwo {
+    font-size: 0.75rem;
+    font-weight: 200;
+    margin: 10px 0px;
+}
+
+
+.btnMainTwo {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: white;
+    cursor:pointer;
+}
+
+/*----------SECTION 2----------*/
+
+.containerTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+
+
+.divMainThree {
+    height: 31.89792663476874vh;
+    padding: 90px 150px;
+    color: white;
+}
+
+.h2One {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #005BD5;
+}
+
+
+.pThree {
+    font-size: 0.75rem;
+    color: #005BD5;
+    margin: 10px 0px;
+}
+
+.pFour {
+    font-size: 0.75rem;
+    color: #005BD5;
+    margin: 10px 0px;
+}
+
+
+.btnMainThree {
+    border: 1px solid #005BD5;
+    border-radius: 50px;
+    padding: 5px 20px;
+    background-color: transparent;
+    color: #005BD5;
+    cursor:pointer;
+}
+
+.imgMainThree {
+    width: 100%;
+    height:  61.08452950558214vh;
+}
+
+

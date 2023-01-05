@@ -1,8 +1,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    height: 2.5rem;
+    width: 99%;
+    height: 8.931419457735247vh;
     align-items: center;
     padding: 10px;
 }
@@ -16,12 +16,12 @@ header a {
 
 header ul {
     display: flex;
-    width: 27.25rem;
+    width: 32.905660377358494vw;
     justify-content: space-around;
 }
 
 .logo {
-    margin-left: 4rem;
+    margin-left: 64px;
 }
 
 .menuUl a:hover {
@@ -34,7 +34,7 @@ header ul {
 }
 
 .navLi {
-    margin-right: 3.25rem;
+    margin-right: 52px;
 }
 
 header button {
@@ -43,8 +43,9 @@ header button {
     border: none;
     color: white;
     font-family: "Argentum, sans-serif";
-    height: 2rem;
-    width: 8rem;
+    height: 5.103668261562999vh;
+    width: 9.660377358490566vw;
     margin-right: 30px;
+    cursor:pointer;
 }
     

@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Gudi - Viagens nacionais</title>
+    <style>
+        @font-face {
+        font-family: 'Argentum, sans-serif';
+        src: url('ArgentumSans-Regular.ttf') format('truetype');
+        }
+    </style>
 </head>
 <body>
     <!----------HEADER---------->
@@ -31,7 +37,7 @@
         <img class="imgMain" src="pictures/pexels-brett-sayles-1907307.png" alt="imgkombi">
         <div class="divMain">
             <h1>Para qual estado você deseja ir?</h1>
-            <input type="text" placeholder="Pesquisar">
+            <input class="input" type="text" placeholder="Pesquisar">
             <button class="btnMainOne">B U S C A R</button>
         </div>
 
@@ -39,8 +45,8 @@
         <section class="container">
             <img class="imgMainTwo" src="pictures/Caminho 18.png" alt="imgbaloes">
             <div class="divMainTwo">
-                <h2>V I A G E N S   N A C I O N A I S</h2>
-                <p class="pOne">O clima perfeito, no lugar perfeito</p>
+                <p class="pOne">V I A G E N S   N A C I O N A I S</p>
+                <h2 class="h2">O clima perfeito, no lugar perfeito</p>
                 <p class="pTwo">Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não 
                 tem preço.</p>
                 <button class="btnMainTwo">A G E N D A R</button>
@@ -50,10 +56,10 @@
         <!----------SECTION 2---------->
         <section class="containerTwo">
             <div class="divMainThree">
-                <h2>V I A G E N S   N A C I O N A I S</h2>
-                <p class="pThree">Curta uma nova vibe entre amigos</p>
+                <p class="pThree">V I A G E N S   N A C I O N A I S</p>
+                <h2 class="h2One">Curta uma nova vibe entre amigos</h2>
                 <p class="pFour">Rachando a conta ou rachando o bico, a melhor hora para curtir é entre amigos.
-                Conheça nosso Planos Multi. 
+                Conheça nosso <b>Planos Multi.</b> 
                 </p>
                 <button class="btnMainThree">A G E N D A R</button>
             </div>
@@ -61,64 +67,127 @@
         </section>
         
         <!---------SECTION 3-------->
-        <section class="containerThree">
-            <img class="imgMainFour" src="pictures/Caminho 39.png" alt="imgbaloes">
-            <div class="divMainFour">
-                <h2>V I A G E N S   N A C I O N A I S</h2>
-                <p class="pFive">O clima perfeito, no lugar perfeito</p>
-                <p class="pSix">Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não 
-                tem preço.</p>
-                <button class="btnMainFour">A G E N D A R</button>
+        <section class="container">
+            <img class="imgMainTwo" src="pictures/Caminho 39.png" alt="imgmar">
+            <div class="divMainTwo">
+                <p class="pOne">V I A G E N S   N A C I O N A I S</p>
+                <h2 class="h2">Algumas experiências são inexplicáveis</p>
+                <p class="pTwo">Conheça as fontes termais de <b>Caldas Novas, Goiás</b> Águas quentes, num
+                clima sereno, relaxante e natural.</p>
+                <button class="btnMainTwo">A G E N D A R</button>
             </div>
         </section>
 
         <!----------SECTION 4---------->
         <section>
-            <div>
+            <div class="divMainFour">
                 <img class="imgMainFive" src="pictures/Retângulo 65.png" alt=""><img class="imgMainFive" src="pictures/Retângulo 66.png" alt=""><img class="imgMainFive" src="pictures/Retângulo 67.png" alt=""><img class="imgMainFive" src="pictures/Retângulo 68.png" alt="">
-                <button class="btnMainFive">RIO DE JANEIRO</button>
-                <button class="btnMainFive">RIO DAS OSTRAS</button>
-                <button class="btnMainFive">CALDAS NOVAS</button>
-                <button class="btnMainFive">AMAZÔNIA</button>
+                <button class="btnRJ">RIO DE JANEIRO</button>
+                <button class="btnRioDasOstras">RIO DAS OSTRAS</button>
+                <button class="btnCaldas">CALDAS NOVAS</button>
+                <button class="btnAmazonia">AMAZÔNIA</button>
             </div>
         </section>
 
 
 
         <!----------SECTION 5---------->
-        <section class="containerFive">
-
             <div class="divMainFive">
                 <p>use a hashtag #brasilisverigudi</p>
                 <h3>Nosso mural de Experiências</h3>
             </div>
-            <div class="div">
-                <img class="containerImg" src="pictures/Retângulo 197.png" alt="">
-                <img class="containerImg" src="pictures/Retângulo 198.png" alt="">
-                <img class="containerImg" src="pictures/Retângulo 199.png" alt="">
-            </div>
-            <div>
-                <img class="containerImg" src="pictures/Retângulo 200.png" alt="">
-                <img class="containerImg" src="pictures/Retângulo 201.png" alt="">
-                <img class="containerImg" src="pictures/Retângulo 202.png" alt="">
-            </div>
-        </section>
+            <section class="containerSix">
+                <div class="item"><img src="pictures/Retângulo 197.png" alt=""></div>
+                <div class="item"><img src="pictures/Retângulo 198.png" alt=""></div>
+                <div class="item"><img src="pictures/Retângulo 199.png" alt=""></div>
+                <div class="item"><img src="pictures/Retângulo 200.png" alt=""></div>
+                <div class="item"><img src="pictures/Retângulo 201.png" alt=""></div>
+                <div class="item"><img src="pictures/Retângulo 202.png" alt=""></div>
+            </section>
 
         <!----------SECTION 6---------->
-        <section class="containerSix">
-            <div class="backgroundOne"><img class="imgBackgroundOne" src="pictures/Grupo 308.svg" alt=""></div>
-            <div class="backgroundTwo"></div>
-            <div class="backgroundOne"></div>
-            <div class="backgroundTwo"></div>
+        <section class="containerSeven">
+            <div class="backgroundOne">
+                <img class="imgBackgroundOne" src="pictures/Grupo 308.svg" alt="">
+                <p>O melhor do Brasil</p>
+            </div>
+            <div class="backgroundTwo">
+                <img class="imgBackgroundTwo" src="pictures/Grupo 305.svg" alt="">
+                <p>Cidades mais frequentadas</p>
+            </div>
+            <div class="backgroundThree">
+                <img class="imgBackgroundThree" src="pictures/Caminho 240.svg" alt="">
+                <p>Pontos turísticos</p>
+            </div>
+            <div class="backgroundFour">
+                <img class="imgBackgroundFour" src="pictures/Grupo 463.svg" alt="">
+                <p>Restaurantes</p>
+            </div>
         </section>
 
-        <section class="containerSeven">
-
+        <!----------SECTION 7--------->
+        <section class="containerEight">
+            <div class="divMainSix">
+                <h3>Fale conosco</h3>
+                <input class="inputEmail" type="email" placeholder="Diga o seu melhor email">
+                <input class="inputTexto" type="text" placeholder="Assunto">
+                <input class="inputMsg"type="text" placeholder="Escreva a sua mensagem">
+                <button>E N V I A R</button>
+            </div>
         </section>
     </main>
     
+    <!---------FOOTER---------->
     <footer>
-
+        <nav>
+        <div>
+            <div class="divFooter">
+                <img src="pictures/Componente 13 – 1.svg" alt="">
+                <ul>
+                    <li>Sobre nós</li>
+                    <li>Mural de memórias</li>
+                    <li>Eventos Gudi</li>
+                    <li>Nosso blog</li>
+                </ul>
+            </div>
+            <div class="divFooter">
+                <p><b>Contato</b></p>
+                <ul>
+                    <li>Chat Virtual</li>
+                    <li>SAC Online</li>
+                    <li>Ouvidoria</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="divFooter">
+                <p><b>Benefícios</b></p>
+                <ul>
+                    <li>Conta digital Gudi</li>
+                    <li>Viaje com milhas</li>
+                    <li>C6 Átomos</li>
+                    <li>iD Jovem</li>
+                </ul>
+            </div>
+            <div class="divFooter">
+                <p><b>Lugares</b></p>
+                <ul>
+                    <li>O melhor do Brasil</li>
+                    <li>Cidades frequentes</li>
+                    <li>Pontos turísticos</li>
+                    <li>Restaurante</li>
+                </ul>
+            </div>
+            <div class="divFooter">
+                <p><b>Curiosidades</b></p>
+                <ul>
+                    <li>Cultura e tradições</li>
+                    <li>Pratos típicos</li>
+                    <li>Mitos brasileiros</li>
+                    <li>Carnaval</li>
+                </ul>
+            </div>
+        </div>
+        </nav>
     </footer>
 </body>
 </html>
